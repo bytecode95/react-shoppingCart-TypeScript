@@ -1,8 +1,13 @@
+type CartItemProps = {
+    id: number
+    quantity: number
+}
 
-export function CartItem(){
+
+export function CartItem({id, quantity}: CartItemProps){
     return (
         <div>
-            
+
         </div>
     )
 }
