@@ -1,27 +1,27 @@
-# React + TypeScript + Vite
+# React Shopping Cart - TypeScript + vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive shopping cart application built with React and TypeScript. This project provides a practical example of how to create a dynamic and interactive shopping experience using modern web technologies.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Product Catalog:** Browse through a variety of products displayed in a user-friendly catalog.
+- **Add to Cart:** Easily add products to your shopping cart with a single click.
+- **Remove from Cart:** Remove items from your cart if you change your mind or want to adjust quantities.
+- **Total Calculation:** The application dynamically calculates and updates the total price as you modify your cart.
+- **Responsive Design:** Enjoy a seamless shopping experience on both desktop and mobile devices.
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **React:** A JavaScript library for building user interfaces.
+- **TypeScript:** A superset of JavaScript that adds static typing to the language.
+- **Styled Components:** React Bootstrap library for styling React components.
+- **React Router:** Declarative routing for React applications.
 
-- Configure the top-level `parserOptions` property like this:
+## Getting Started
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+1. Clone the repository:
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+   ```bash
+   git clone https://github.com/your-username/react-ts-shopping-cart.git
+
+
