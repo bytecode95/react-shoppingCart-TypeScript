@@ -1,5 +1,9 @@
 # React Shopping Cart - TypeScript + vite
 
+<img src="public\assets\image1.png" alt="Shopping Cart Demo" width="500" height="300">
+
+<img src="public\assets\image2.png" alt="Shopping Cart Demo" width="500" height="300">
+
 A simple and responsive shopping cart application built with React and TypeScript. This project provides a practical example of how to create a dynamic and interactive shopping experience using modern web technologies.
 
 ## Features
@@ -22,6 +26,7 @@ A simple and responsive shopping cart application built with React and TypeScrip
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/react-ts-shopping-cart.git
+   git clone https://github.com/bytecode95/react-shoppingCart-TypeScript.git
+   ```
 
 
