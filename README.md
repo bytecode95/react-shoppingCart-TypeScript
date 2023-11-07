@@ -21,6 +21,14 @@ A simple and responsive shopping cart application built with React and TypeScrip
 - **Styled Components:** React Bootstrap library for styling React components.
 - **React Router:** Declarative routing for React applications.
 
+## Folder Structure
+- **`src/components/`:** Contains reusable React components used throughout the application.
+- **`src/pages/`:** Represents the pages in applications.
+- **`src/data/`:** Contains JSON data of product items.
+- **`src/context/`:** implementation of React Context API, which is used for managing state in a global or shared manner across components without prop drilling.
+- **`src/hooks/`:** Define Custom hooks for aplication.
+- **`src/utils/`:** to store utility functions.
+
 ## Getting Started
 
 1. Clone the repository:
