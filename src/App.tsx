@@ -25,3 +25,12 @@ function App() {
 }
 
 export default App
+
+//<Routes> Component: The <Routes> component is used to wrap a collection of <Route> components. 
+//It serves as a container for defining the routing structure
+
+//<Route> Components: Each <Route> component represents a specific route in your application. 
+//The path attribute specifies the URL path, and the element attribute specifies the React element (component) to be rendered when the route matches.
+
+//The main file of a React application (often named app.jsx) is a common place to define routes because it serves as the entry point for your application.
+//By defining routes in the main file, you establish the overall structure of your application and determine which components should be rendered for different URLs.
