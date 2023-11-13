@@ -6,7 +6,9 @@ import useShoppingCart from '../context/shoppingCartContext'
 export default function Navbar(){
     const {openCart, cartQuantity} = useShoppingCart();
 
-
+    //The to prop of the Link component specifies the target URL. React Router updates the URL in the browser address bar based on this prop.
+    //React Router uses the HTML5 History API to manipulate the browser's history, allowing for a seamless, single-page application (SPA) experience without triggering full page reloads.
+    //When a user clicks on a Link, React Router intercepts the click event and uses the History API to update the URL without causing a full page reload.
     return(
         <NavbarBS sticky='top' className='bg-white shadow-sm mb-3 fs-3 fw-bold ' >
             <Container className='me-auto'>
